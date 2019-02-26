@@ -2,7 +2,7 @@
 [Original repo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/android)
 
 ## Implementation Details
-This project is a little modifier version of TFLite [andorid example](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/android).
+This project is a little modified version of TFLite [andorid example](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/android).
 
 ### Classifier
 Custom classifer can be implemented by `Classier` abstract class and implementing `recognizeImage(Bitmap bitmap)`. Classifier needs to put labels file in `Classifier.labels`. Model (Interpretor) can be set using: 
